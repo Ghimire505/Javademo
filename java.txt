@@ -1,0 +1,23 @@
+
+public class Bank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int a =2;
+	 Account account1 = new Account();
+	 account1.accountNumber=12456;
+	 account1.accoutHolderName="ram";
+	 account1.accountType = "Saving";
+	 account1.accountBalance = 5000.5f;
+	 account1.branch =  "Queens";
+	 account1.ssn=12244;
+	 
+	 
+	 Account account2=new Account();
+	 account2.accountNumber="9848293505";	 
+	account2.ssn="44444";
+	System.out.println(account1.accountNumber );
+	System.out.println(account2.account number);
+	
+	
