@@ -1,0 +1,41 @@
+{
+merchantName: "Amazon",
+TransactionAmt:200,
+TransDate :"02-01-2019
+
+
+merchantName: "Amazon",
+TransactionAmt:300,
+TransDate :"03-03-2019
+
+
+merchantName: "Amazon",
+TransactionAmt:15.09,
+TransDate :"04-04-2019
+
+
+merchantName: "BestBuy",
+TransactionAmt:92.12,
+TransDate :"02-01-2019
+}
+==========================
+
+class Merchant
+{
+
+private String merchantName;
+private transactionAmt;
+private LocalDate transDate;
+
+// getter and setter
+
+}
+
+List<Merchant> list = ------------;
+
+int total = list.stream().filter(m -> m.getMerchantName().equals("Amazon").mapToInt(m -> m.getTransactionAmt()).sum();
+
+
+
+
+
